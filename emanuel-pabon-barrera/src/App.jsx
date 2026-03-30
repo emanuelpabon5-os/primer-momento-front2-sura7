@@ -1,10 +1,12 @@
 import { productos } from "./data";
 import ProductCard from "./components/ProductCard";
+import "./App.css";
 
 function App() {
   return (
     <div>
       <h1>Catálogo TechStore</h1>
+      
 
       <div style={{ display: "flex", flexWrap: "wrap" }}>
         {productos.map((producto) => (
@@ -17,6 +19,7 @@ function App() {
           />
         ))}
       </div>
+         
     </div>
   );
 }
