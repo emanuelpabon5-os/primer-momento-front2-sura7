@@ -8,7 +8,7 @@ function App() {
       <h1>Catálogo TechStore</h1>
       
 
-      <div style={{ display: "flex", flexWrap: "wrap" }}>
+      <div class="container">
         {productos.map((producto) => (
           <ProductCard
             key={producto.id}
